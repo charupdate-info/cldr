@@ -48,8 +48,8 @@ public enum CodePointEscaper {
     KIAA(0x17B5, "Khmer inherent aa"),
 
     RANGE('➖', "range syntax mark", "heavy minus sign"),
-    ESCS('❰', "escape start", "double open paren angle"),
-    ESCE('❱', "escape end", "double close paren angle");
+    ESCS('❰', "escape start", "heavy open angle bracket"),
+    ESCE('❱', "escape end", "heavy close angle bracket");
 
     public static final char RANGE_SYNTAX = (char) RANGE.getCodePoint();
     public static final char ESCAPE_START = (char) ESCS.getCodePoint();
